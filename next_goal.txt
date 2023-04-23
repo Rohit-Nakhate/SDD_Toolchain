@@ -1,0 +1,17 @@
+
+
+NExt goal : To generate metrics.json for all the components listes in componentlist.csv
+
+ 
+
+SDD toolchain : 
+Manually :
+main.py --xml-dir = C:\sw.sys.chorus_main_doxygen_reports\mc_sw\appl\BAP\BAPHandler_Doorlocking\Evo\doc\Doxygen\xml --ouputdir = C:\sw.sys.chorus_main_doxygen_reports\output\mc_sw\appl\BAP\BAPHandler_Doorlocking
+
+ 
+
+Automated way :
+For each component in component.csv :
+    inputxml_dir = component
+    output_dir = create an path : from split of doc and generate the path we manuallwere giving
+    main.py --xml-dir = inputxml_dir --ouputdir = output_dir
