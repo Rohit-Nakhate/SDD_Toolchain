@@ -1,0 +1,1 @@
+python get_component_path.py --input_dir ="D:\\New_task\\SDD_Toolchain\\sw.sys.chorus_main_doxygen_reports\\mc_sw" --output_dir="D:\\New_task\\output_dir"
